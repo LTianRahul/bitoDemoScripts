@@ -1,5 +1,5 @@
 public class LoginDemo {
-    
+
     private static final String USERNAME = "admin";
     private static final String PASSWORD = "password123";
 
@@ -12,7 +12,7 @@ public class LoginDemo {
         if (inputUsername.equals(USERNAME) && inputPassword.equals(PASSWORD)) {
             System.out.println("✅ Login successful");
         } else {
-            System.out.println("❌ Login failed ");
+            System.out.println("❌ Login failed");
         }
     }
 }
