@@ -10,9 +10,9 @@ public class LoginDemo {
         System.out.println("Attempting login with username: " + inputUsername + " and password: " + inputPassword);
 
         if (inputUsername.equals(USERNAME) && inputPassword.equals(PASSWORD)) {
-            System.out.println("✅ Login successful");
+            System.out.println("Login successful");
         } else {
-            System.out.println("❌ Login failed");
+            System.out.println("Login failed ");
         }
     }
 }
