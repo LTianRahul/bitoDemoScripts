@@ -12,7 +12,7 @@ public class LoginDemo {
         if (inputUsername.equals(USERNAME) && inputPassword.equals(PASSWORD)) {
             System.out.println("✅ Login successful");
         } else {
-            System.out.println("❌ Login failed");
+            System.out.println("❌ Login failed ");
         }
     }
 }
